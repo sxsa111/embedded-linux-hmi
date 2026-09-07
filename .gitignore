@@ -1,0 +1,31 @@
+# 编译产物
+*.o
+*.out
+hmi_demo
+tts_tool
+asr_tool
+
+# Python
+__pycache__/
+*.pyc
+
+# 第三方 SDK（讯飞 MSC，需自行下载，受许可限制不入库）
+third_party/
+
+# 运行时数据 / 缓存
+msc/
+*.log
+*.wav
+*.pcm
+
+# 资源文件（字库、图片需自行提供）
+HZK16
+*.bmp
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+
+# 工作区元数据
+.workbuddy/
